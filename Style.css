@@ -1,0 +1,35 @@
+body
+{
+    background-color:;
+    color: ghostwhite;
+}
+
+li a{
+    font-size: 20px;
+    color: ghostwhite;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+li a:hover{
+    background-color: black;
+}
+
+nav > ul {
+    list-style: none;
+    margin: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2B2B2B;;
+}
+nav li {
+    float: left;
+    margin: 0.5;
+    padding: 0;
+    font-size: 14px;
+    flex: 1 1 0%
+}
+.active {background-color: black}
