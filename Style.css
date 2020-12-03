@@ -1,6 +1,6 @@
 body
 {
-    background-color:;
+    background-color: #242424;
     color: ghostwhite;
 }
 
@@ -23,7 +23,7 @@ nav > ul {
     margin: none;
     padding: 0;
     overflow: hidden;
-    background-color: #2B2B2B;;
+    background-color: #560202;
 }
 nav li {
     float: left;
@@ -32,4 +32,13 @@ nav li {
     font-size: 14px;
     flex: 1 1 0%
 }
-.active {background-color: black}
+.active {
+    background-color: #390101
+}
+
+.imgzentriert {
+    display: block;
+    width:60%;
+    height: 30%;
+    margin: 0px auto;
+}
