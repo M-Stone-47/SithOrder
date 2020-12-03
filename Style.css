@@ -4,7 +4,7 @@ body
     color: ghostwhite;
 }
 
-li a{
+.main-menu li a{
     font-size: 20px;
     color: ghostwhite;
     display: block;
@@ -14,18 +14,18 @@ li a{
 
 }
 
-li a:hover{
+.main-menu li a:hover{
     background-color: black;
 }
 
-nav > ul {
+.main-menu nav > ul {
     list-style: none;
     margin: none;
     padding: 0;
     overflow: hidden;
     background-color: #560202;
 }
-nav li {
+.main-menu nav li {
     float: left;
     margin: 0.5;
     padding: 0;
@@ -41,4 +41,33 @@ nav li {
     width:60%;
     height: 30%;
     margin: 0px auto;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+
+
+.vertical-menu  {
+    width 10%;
+}
+
+.vertical-menu a {
+    background-color: #560202;
+    color: white;
+    display: block;
+    padding: 12px;
+}
+
+.vertical-menu a.active {
+    background-color: #390101;
+    color: white;
+}
+
+.vertical-menu a:hover{
+    background-color: black;
 }
