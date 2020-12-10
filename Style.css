@@ -37,8 +37,8 @@ body
 
 .imgzentriert {
     display: block;
-    width:60%;
-    height: 30%;
+    width:50%;
+    height: 20%;
     margin: 0px auto;
 }
 
@@ -46,7 +46,7 @@ body
     float: Right;
     width: 70%;
     background-color: #560202;
-    height: 300px;
+    height: 70%;
     Padding: 2%;
     Padding-top: 0;
     display: block;
