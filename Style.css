@@ -88,7 +88,7 @@ body
 .sidenav a:hover {
     background-color: black;
 }
-.footer{
+footer{
     width:100%;
     bottom:0px;
     text-align: center;
@@ -99,3 +99,22 @@ body
 a{
     color: ghostwhite;
 }
+
+.cr {
+    text-align: left;
+    float: Right;
+    width: 40%;
+    Padding: 2%;
+    Padding-top: 0;
+    display: block;
+}
+
+.Contacts {
+    text-align: left;
+    float: left;
+    width: 40%;
+    Padding: 2%;
+    Padding-top: 0;
+    display: block;
+}
+
